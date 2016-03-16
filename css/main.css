@@ -3,42 +3,7 @@ body {
   height: 100%;
 }
 
-/*
-.sx-navtop {
-  font-size: 22px;
-  color: #FFF;
-}
-
-.sx-navtop-right {
-  font-size: 18px;
-}
-
-.sx-navtop .navbar-brand {
-  color: #FFF;
-}
-
-.sx-navtop .navbar-brand:hover,
-.sx-navtop .navbar-brand:focus {
-  background: #444;
-  color: #FFF;
-}
-
-ul.sx-navtop-right li {
-  display: inline-block;
-  margin-left: -5px;
-}
-
-ul.sx-navtop-right a {
-  background: #444;
-  color: #FFF;
-}
-
-ul.sx-navtop-right a:hover,
-ul.sx-navtop-right a:focus {
-  background: #222;
-  color: #fff;
-}
-*/
+/* Navbar */
 #sidebar-wrapper {
     z-index: 1000;
     position: fixed;
@@ -121,7 +86,7 @@ ul.sx-navtop-right a:focus {
 .toggle {
     margin: 5px 5px 0 0;
 }
-
+/* Navbar End */
 
 .header {
   padding: 100px;
@@ -135,6 +100,14 @@ ul.sx-navtop-right a:focus {
     -moz-background-size: cover;
   background-size: cover;
     -o-background-size: cover;
+}
+
+.header h1 {
+  font-size: 7.5em !important;
+}
+
+.header h1, h3 {
+  text-shadow: black 3px 4px 5px;
 }
 
 .text-vertical-center {
@@ -185,3 +158,22 @@ ul.sx-navtop-right a:focus {
 .text-right-align {
   text-align: right;
 }
+
+/* Stylish About Me */
+.stylish-panel {
+    padding: 20px 0;
+    text-align: center;
+}
+.stylish-panel > div > div{
+    padding: 10px;
+}
+
+.stylish-panel > div:hover img {
+    border-radius: 50%;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+/* Stylish About Me End */
