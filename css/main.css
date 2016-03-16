@@ -68,12 +68,20 @@ ul.sx-navtop-right a:focus {
 }
 
 .about {
-  padding: 50px 0;
+  padding: 50px;
+  display: table;
+  height: 250px;
+  width: 100%;
 }
 
 .portfolio {
-  padding: 50px 0;
+  padding: 50px;
+  display: table;
+  height: 400px;
+  width: 100%;
   background-color: black;
+  background-image: url("http://s15.postimg.org/jzeo6gn5n/writing.jpg");
+  background-size: cover;
 }
 
 .contact {
@@ -82,4 +90,8 @@ ul.sx-navtop-right a:focus {
 
 .footer {
   padding: 50px 0;
+}
+
+.text-right-align {
+  text-align: right;
 }
