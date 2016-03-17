@@ -3,42 +3,7 @@ body {
   height: 100%;
 }
 
-.sx-navtop {
-    font-size: 22px;
-    color: #FFF;
- }
- 
- .sx-navtop-right {
-   font-size: 18px;
- }
- 
- .sx-navtop .navbar-brand {
-   color: #FFF;
- }
- 
- .sx-navtop .navbar-brand:hover,
- .sx-navtop .navbar-brand:focus {
-   background: #444;
-   color: #FFF;
- }
- 
- ul.sx-navtop-right li {
-   display: inline-block;
-   margin-left: -5px;
- }
- 
- ul.sx-navtop-right a {
-   background: #444;
-   color: #FFF;
- }
- 
- ul.sx-navtop-right a:hover,
- ul.sx-navtop-right a:focus {
-    background: #222;
-    color: #fff;
-  }
-  
-/* Navbar
+/* Navbar */
 #sidebar-wrapper {
   z-index: 1000;
   position: fixed;
@@ -121,7 +86,7 @@ body {
 .toggle {
     margin: 5px 5px 0 0;
 }
-Navbar End */
+/* Navbar End */
 
 .header {
   padding: 100px;
