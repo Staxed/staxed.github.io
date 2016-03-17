@@ -95,10 +95,7 @@ body {
   height: 100%;
   color: #FFF;
   background-image: url("http://s27.postimg.org/778hbrnc3/escalator.jpg");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
   background-size: cover;
-    -o-background-size: cover;
 }
 
 .header h1 {
