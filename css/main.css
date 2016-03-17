@@ -101,17 +101,6 @@ body {
   
 }
 
-.header h1 {
-  font-size: 7.5em !important;
-}
-
-@media only screen and (max-width: 800px) {
-  .header h1 {
-    font-size: 4em !important;
-}
-
-}
-
 .header h1, h3 {
   text-shadow: black 3px 4px 5px;
 }
@@ -127,6 +116,16 @@ body {
   padding: 0;
   font-size: 4.5em;
   font-weight: 700;
+}
+
+.header h1 {
+  font-size: 7.5em;
+}
+
+@media only screen and (max-width: 800px) {
+  .header h1 {
+    font-size: 4em;
+  }
 }
 
 .network-name {
