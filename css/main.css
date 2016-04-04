@@ -258,6 +258,7 @@ body {
   .portfolio-box ul {
     list-style: none;
     background: none;
+    border: none;
   }
 
     .portfolio-box ul li {
