@@ -234,7 +234,7 @@ body {
     color: #f5f7f8;
     text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
     margin-bottom: 12px;
-    float: left !important;
+    float: left;
   }
 
   #portfolio .navigation {
@@ -251,10 +251,8 @@ body {
   }
 
 .portfolio-box {
-  background: #e3e7e9 url('../images/main-bg.jpg');
-  border: 1px solid #428ca1;
   padding: 30px;
-  width: 1002px; /* +2px to compensate for the border */
+  width: 1000px;
   overflow: hidden;
   margin-left: -31px;
   -webkit-border-radius: 4px;
