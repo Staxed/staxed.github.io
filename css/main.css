@@ -224,3 +224,63 @@ body {
       border-bottom: 1px solid #428ca1;
       padding-bottom: 9px; /* push down the bottom border */
     }
+
+    #portfolio {
+  padding: 20px 0 50px 0;
+  background: #80bcca url("../images/secondary-bg.jpg");
+  border-top: 1px solid #428ca1;
+  border-bottom: 1px solid #428ca1;
+}
+
+  #portfolio h2 {
+    color: #f5f7f8;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+    margin-bottom: 12px;
+    float: left;
+  }
+
+  #portfolio .navigation {
+    margin-top: 10px;
+  }
+
+  #portfolio .navigation li a {
+    text-transform: none;
+  }
+
+  #portfolio .navigation li.active,
+  #portfolio .navigation li.active a {
+    padding-bottom: 5px;
+  }
+
+.portfolio-box {
+  background: #e3e7e9 url('../images/main-bg.jpg');
+  border: 1px solid #428ca1;
+  padding: 30px;
+  width: 1002px; /* +2px to compensate for the border */
+  overflow: hidden;
+  margin-left: -31px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+  .portfolio-box ul {
+    list-style: none;
+  }
+
+    .portfolio-box ul li {
+      border: 1px solid #e8ebef;
+      margin-bottom: 20px;
+      -moz-box-shadow:    0 0 5px 0 rgba(0, 0, 0, 0.3);
+      -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+      box-shadow:         0 0 5px 0 rgba(0, 0, 0, 0.3);
+    }
+
+    .portfolio-box ul li.active {
+      border: 1px solid #56c3dc;
+      -moz-box-shadow:    0 0 0 0 rgba(0, 0, 0, 0);
+      -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+      box-shadow:         0 0 0 0 rgba(0, 0, 0, 0);
+    }
+
+#portfolio h3 {margin-bottom: 12px;}
