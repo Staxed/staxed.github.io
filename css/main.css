@@ -225,11 +225,6 @@ body {
       padding-bottom: 9px; /* push down the bottom border */
     }
 
-    #portfolio {
-  border-top: 1px solid #428ca1;
-  border-bottom: 1px solid #428ca1;
-}
-
   #portfolio h2 {
     color: #f5f7f8;
     text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
@@ -266,7 +261,6 @@ body {
   }
 
     .portfolio-box ul li {
-      border: 1px solid #e8ebef;
       margin-bottom: 20px;
       -moz-box-shadow:    0 0 5px 0 rgba(0, 0, 0, 0.3);
       -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
@@ -274,7 +268,6 @@ body {
     }
 
     .portfolio-box ul li.active {
-      border: 1px solid #56c3dc;
       -moz-box-shadow:    0 0 0 0 rgba(0, 0, 0, 0);
       -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
       box-shadow:         0 0 0 0 rgba(0, 0, 0, 0);
