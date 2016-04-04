@@ -262,6 +262,7 @@ body {
 
   .portfolio-box ul {
     list-style: none;
+    background: none;
   }
 
     .portfolio-box ul li {
