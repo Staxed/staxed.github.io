@@ -168,16 +168,15 @@ body {
   text-align: left;
 }
 
-/* Stylish About Me */
-.stylish-panel {
+.about-panel {
   padding: 20px 0;
   text-align: center;
 }
-.stylish-panel > div > div{
+.about-panel > div > div {
   padding: 10px;
 }
 
-.stylish-panel > div:hover img {
+.about-panel > div:hover img {
   border-radius: 50%;
     -webkit-transform: rotate(360deg);
     -moz-transform: rotate(360deg);
@@ -185,4 +184,3 @@ body {
     -ms-transform: rotate(360deg);
   transform: rotate(360deg);
 }
-/* Stylish About Me End */
