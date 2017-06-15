@@ -1,6 +1,3 @@
-## This project is no longer in active development.
+## This is a work in progress for my personal portfolio
 
-### My portfolio page has been moved to Gitlab.
-
-- Direct Link to [Portfolio Page](https://staxed.gitlab.io)
-- Direct Link to [Gitlab Profile](https://gitlab.com/Staxed)
+### Social Media Links:
