@@ -1,3 +1,7 @@
+body, html {
+	height: 100%;
+}
+
 footer {
 	display: flex;
 	justify-content: space-between;
@@ -6,4 +10,31 @@ footer {
 
 .footer-right {
 	margin-left: auto;
+}
+
+.headerBG {
+	background: #000FFF url("http://localhost/staxed.github.io/new/img/main_bg.jpg") center/cover no-repeat;
+	height: 100%;
+}
+
+.flex-container-vert {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.header-bottom {
+	margin-top: auto;
+	align-self: flex-end;
+}
+
+.header-flexitem:nth-of-type(1) {
+	margin-bottom: auto;
+	margin-right: auto;
+}
+
+.header-flexitem:nth-of-type(5) {
+	margin-top: auto;
+	align-self: flex-end;
 }
