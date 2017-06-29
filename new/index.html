@@ -19,7 +19,10 @@
 
 	<!-- Normalize CSS -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" integrity="sha256-HxaKz5E/eBbvhGMNwhWRPrAR9i/lG1JeT4mD6hCQ7s4=" crossorigin="anonymous" />
-	<link rel="stylesheet" href="css/style.css?v=1.0">
+	<!-- Include Font Awewome 4.7 -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/aa51507dfa.css">
+
+	<link rel="stylesheet" href="css/style.css?v=1.0.3">
 
 	<!-- Include scripts -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script><!-- jquery -->
@@ -30,44 +33,62 @@
 	<!-- Navigation -->
 
 	<!-- End Navigation -->
-
 	<!-- Header -->
 
-		<div class="header headerBG flex-container-vert">
-			<div class="header-flexitem"></div><!--Invisible Flex Item for alignment balance-->
-			<div class="header-flexitem header-title">Daniel Barr</div>
-			<div class="header-flexitem header-phrase">"Life's true gift is the capacity to enjoy enjoyment"</div>
-			<div class="header-flexitem">
-				<a href="https://www.facebook.com/staxed" class="button main">Facebook</a>
-				<a href="https://twitter.com/DanBBarr" class="button main">Twitter</a>
-				<a href="https://github.com/Staxed" class="button main">Github</a>
-				<a href="https://www.linkedin.com/in/daniel-barr-67291331" class="button main">Linkedin</a>
-			</div>
-			<div class="header-flexitem">
-				<!-- Unsplash image attribution code  -->
-				<a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px;" href="http://unsplash.com/@erezattias?utm_campaign=photographer-credit" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Erez Attias"><span style="display:inline-block;padding:2px 3px;"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-1px;fill:white;" viewBox="0 0 32 32"><title></title><path d="M20.8 18.1c0 2.7-2.2 4.8-4.8 4.8s-4.8-2.1-4.8-4.8c0-2.7 2.2-4.8 4.8-4.8 2.7.1 4.8 2.2 4.8 4.8zm11.2-7.4v14.9c0 2.3-1.9 4.3-4.3 4.3h-23.4c-2.4 0-4.3-1.9-4.3-4.3v-15c0-2.3 1.9-4.3 4.3-4.3h3.7l.8-2.3c.4-1.1 1.7-2 2.9-2h8.6c1.2 0 2.5.9 2.9 2l.8 2.4h3.7c2.4 0 4.3 1.9 4.3 4.3zm-8.6 7.5c0-4.1-3.3-7.5-7.5-7.5-4.1 0-7.5 3.4-7.5 7.5s3.3 7.5 7.5 7.5c4.2-.1 7.5-3.4 7.5-7.5z"></path></svg></span><span style="display:inline-block;padding:2px 3px;">Erez Attias</span></a>
-				<!-- End Unspash image attribution code -->	
-			</div>
+	<header class="header headerBG flex-container-vert">
+		<div class="header-flexitem"></div><!--Invisible Flex Item for alignment balance-->
+		<div class="header-flexitem header-title">Daniel Barr</div>
+		<div class="header-flexitem header-phrase">"Life's true gift is the capacity to enjoy enjoyment"</div>
+		<div class="header-flexitem header-button-space">
+			<a href="https://www.facebook.com/staxed" class="button main"><i class="fa fa-facebook fa-fw" aria-hidden="true"></i> Facebook</a>
+			<a href="https://twitter.com/DanBBarr" class="button main"><i class="fa fa-twitter fa-fw" aria-hidden="true"></i> Twitter</a>
+			<a href="https://github.com/Staxed" class="button main"><i class="fa fa-github fa-fw" aria-hidden="true"></i> Github</a>
+			<a href="https://www.linkedin.com/in/daniel-barr-67291331" class="button main"><i class="fa fa-linkedin fa-fw" aria-hidden="true"></i> Linkedin</a>
 		</div>
+		<div class="header-flexitem">
+			<!-- Unsplash image attribution code  -->
+			<a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px;" href="http://unsplash.com/@erezattias?utm_campaign=photographer-credit" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Erez Attias"><span style="display:inline-block;padding:2px 3px;"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-1px;fill:white;" viewBox="0 0 32 32"><title></title><path d="M20.8 18.1c0 2.7-2.2 4.8-4.8 4.8s-4.8-2.1-4.8-4.8c0-2.7 2.2-4.8 4.8-4.8 2.7.1 4.8 2.2 4.8 4.8zm11.2-7.4v14.9c0 2.3-1.9 4.3-4.3 4.3h-23.4c-2.4 0-4.3-1.9-4.3-4.3v-15c0-2.3 1.9-4.3 4.3-4.3h3.7l.8-2.3c.4-1.1 1.7-2 2.9-2h8.6c1.2 0 2.5.9 2.9 2l.8 2.4h3.7c2.4 0 4.3 1.9 4.3 4.3zm-8.6 7.5c0-4.1-3.3-7.5-7.5-7.5-4.1 0-7.5 3.4-7.5 7.5s3.3 7.5 7.5 7.5c4.2-.1 7.5-3.4 7.5-7.5z"></path></svg></span><span style="display:inline-block;padding:2px 3px;">Erez Attias</span></a>
+			<!-- End Unspash image attribution code -->	
+		</div>
+	</header>
 
 	<!-- End Header -->
-
 	<!-- About -->
 
-	<!-- End About -->
+	<a name="about"></a>
+	<section class="about ">
 
+	</section>
+
+	<!-- End About -->
 	<!-- Portfolio -->
 
+	<a name="portfolio"></a>
+	<section class="portfolio ">
+	  	
+	</section>
+
 	<!-- End Portfolio -->
-
 	<!-- Contact -->
-
+	<a name="contact"></a>
+	<section class="contact ">
+	  <div><p>There's a few ways to get in touch with me, please feel free to pick the one you prefer.</p><br></div>
+	  <div>
+	  	<a href="mailto:daniel.b.barr@gmail.com" class="button main"><i class="fa fa-envelope fa-fw" aria-hidden="true"></i> Email Me</a>
+			<a href="https://www.facebook.com/staxed" class="button main"><i class="fa fa-facebook fa-fw" aria-hidden="true"></i> Facebook</a>
+			<a href="https://twitter.com/DanBBarr" class="button main"><i class="fa fa-twitter fa-fw" aria-hidden="true"></i> Twitter</a>
+			<a href="https://github.com/Staxed" class="button main"><i class="fa fa-github fa-fw" aria-hidden="true"></i> Github</a>
+			<a href="https://www.linkedin.com/in/daniel-barr-67291331" class="button main"><i class="fa fa-linkedin fa-fw" aria-hidden="true"></i> Linkedin</a>
+		</div>
+	</section>
 	<!-- End Contact -->
-
 	<!-- Footer -->
 	<footer>
-		<div><a href="#home">Home</a> | <a href="#about">About</a> | <a href="#portfolio">Portfolio</a> | <a href="#contact">Contact</a></div>
-		<div class="footer-right">scrivened and ciphered by <a href="https://github.com/Staxed">Daniel Barr</a></div>
+		<div><hr></div>
+		<div class="footer-horizontal">
+			<div><a href="#home">Home</a> | <a href="#about">About</a> | <a href="#portfolio">Portfolio</a> | <a href="#contact">Contact</a></div>
+			<div class="footer-right">scrivened and ciphered by <a href="https://github.com/Staxed">Daniel Barr</a></div>
+		</div>
 	</footer>
 
 	<!-- End Footer -->
