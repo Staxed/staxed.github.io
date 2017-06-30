@@ -123,3 +123,51 @@ hr {
   border: 0;
   border-top: 1px solid #CCC;
 }
+
+.about-flex-container {
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	justify-content: flex-start;
+	width: 80%;
+	margin: 0 auto;
+}
+
+#flex-about {
+	display: flex;
+	flex: 1;
+}
+
+#flex-about > .qualification {
+	padding: 10px;
+	flex: 1 1 auto;
+	text-align: center;
+}
+
+#about-header {
+	display: flex;
+	height: 50px;
+	justify-content: center;
+	align-items: center;
+	background-color: #CED6ED;
+}
+
+#about-footer {
+	display: flex;
+	height: 50px;
+	justify-content: center;
+	align-items: center;
+	background-color: #DBCEED;
+}
+
+.red {
+	background-color: red;
+}
+
+.blue {
+	background-color: blue;
+}
+
+.yellow {
+	background-color: yellow;
+}
