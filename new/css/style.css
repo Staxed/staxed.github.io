@@ -74,7 +74,6 @@ body, html {
 
 .about {
 	padding: 50px;
-	background-color: blue;
 }
 
 .portfolio {
@@ -83,7 +82,10 @@ body, html {
 	justify-content: center;
 	align-items: center;
 	height: 400px;
-	background-color: red;
+}
+
+.portfolioBG {
+	background: #000FFF url("http://localhost/staxed.github.io/new/img/mobileoffice.jpg") center/cover no-repeat;
 }
 
 .contact {
@@ -92,7 +94,6 @@ body, html {
 	justify-content: center;
 	align-items: center;
 	padding: 50px;
-	background-color: yellow;
 }
 
 footer {
