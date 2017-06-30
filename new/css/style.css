@@ -34,6 +34,7 @@ body, html {
 
 .header-flexitem:nth-of-type(5) {
 	margin-top: auto;
+	margin-bottom: 0;
 	align-self: flex-end;
 }
 
@@ -78,6 +79,10 @@ body, html {
 
 .portfolio {
 	padding: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 400px;
 	background-color: red;
 }
 
@@ -93,7 +98,8 @@ body, html {
 footer {
 	image-rendering: : 0 50px;
 	display: flex;
-	width: 100%;
+	width: 90%;
+	margin: 0 auto;
 	justify-content: center;
 	flex-direction: column;
 }
@@ -101,9 +107,9 @@ footer {
 .footer-horizontal {
 	display: flex;
 	justify-content: space-between;
-	margin: 0 20px 0 20px;
+	margin: 0 auto;
 	padding: 0px 0 10px 0;
-	width: 80%;
+	width: 95%;
 }
 
 .footer-right {
@@ -114,5 +120,5 @@ hr {
   margin-top: 20px;
   margin-bottom: 20px;
   border: 0;
-  border-top: 1px solid #eee;
+  border-top: 1px solid #CCC;
 }
