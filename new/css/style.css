@@ -146,10 +146,11 @@ hr {
 
 #about-header {
 	display: flex;
-	height: 50px;
 	justify-content: center;
 	align-items: center;
 	background-color: #CED6ED;
+	flex-direction: column;
+	text-align: center;
 }
 
 #about-footer {
