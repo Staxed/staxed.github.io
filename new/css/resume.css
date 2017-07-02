@@ -1,0 +1,54 @@
+/*
+ * staxed.github.io
+ * Copyright 2016-2017 by Daniel B. Barr <daniel.b.barr@gmail.com>
+ * This file is part of staxed.github.io and is governed by The MIT License (MIT)
+ * Full License at https://staxed.github.io/license.txt
+*/
+
+body, html {
+	height: 100%;
+}
+#comingSoon {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+.flex-center {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 50vh;
+}
+
+.comingSoonBG {
+	background: #FFF url("http://localhost/staxed.github.io/new/img/resume.jpg") center/cover no-repeat;
+}
+
+h1 {
+	font-size: 7em;
+	font-weight: 700;
+	color: #115C56;
+	text-shadow: #000 3px 4px 5px;
+	padding: 0;
+	margin: 0;
+}
+
+.bottom-link {
+	margin-top: 15px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	font-size: 1.5em;
+	font-weight: 700;
+}
+
+a:hover {
+	color: #6E764F;
+	text-decoration: underline;
+}
