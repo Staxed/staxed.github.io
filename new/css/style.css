@@ -8,10 +8,11 @@
 body, html {
 	height: 100%;
 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	color: #333;
 }
 
 .headerBG {
-	background: #000FFF url("http://localhost/staxed.github.io/new/img/main_bg.jpg") center/cover no-repeat;
+	background: #0A1E25 url("http://localhost/staxed.github.io/new/img/main_bg.jpg") center/cover no-repeat;
 	height: 100%;
 }
 
@@ -77,15 +78,15 @@ body, html {
 }
 
 .portfolio {
-	padding: 50px;
+	padding: 2% 50px 5% 50px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 400px;
 }
 
 .portfolioBG {
-	background: #000FFF url("http://localhost/staxed.github.io/new/img/mobileoffice.jpg") center/cover no-repeat;
+	background: #0A1E25 url("http://localhost/staxed.github.io/new/img/mobileoffice.jpg") center/cover no-repeat;
+	background-attachment: fixed;
 }
 
 .contact {
@@ -129,8 +130,12 @@ hr {
 	flex-direction: column;
 	align-items: stretch;
 	justify-content: flex-start;
-	width: 80%;
+	width: 75%;
 	margin: 0 auto;
+}
+
+.about-flex-container p {
+	padding: 0 20px;
 }
 
 #flex-about {
@@ -148,27 +153,42 @@ hr {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-color: #CED6ED;
 	flex-direction: column;
 	text-align: center;
 }
 
 #about-footer {
 	display: flex;
-	height: 50px;
 	justify-content: center;
 	align-items: center;
-	background-color: #DBCEED;
 }
 
-.red {
-	background-color: red;
+.portfolio-flex-container {
+	display: flex;
+	flex-direction: column;
+	width: 75%;
+	justify-content: center;
+	align-items: center;
 }
 
-.blue {
-	background-color: blue;
+#portfolio-header {
+	text-align: center;
+	color: #000;
 }
 
-.yellow {
-	background-color: yellow;
+#flex-portfolio {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.portfolio-item {
+	flex: 1 1 auto;
+	margin: 10px 0;
+	text-align: center;
+}
+
+.portfolio-item > img {
+	margin: 5px;
 }
