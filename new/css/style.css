@@ -149,12 +149,29 @@ hr {
 	text-align: center;
 }
 
+#flex-about > .qualification > h2 {
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+}
+
 #about-header {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
 	text-align: center;
+}
+
+#about-header > h1 {
+	font-size: 3.5em;
+	text-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+	padding: 0;
+	margin: 0;
+}
+
+#about-header > p {
+	font-size: 1.4em;
+	font-weight: 100;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
 }
 
 #about-footer {
@@ -198,11 +215,9 @@ hr {
 
 .portfolio-item > img:hover {
 	opacity: 1.0;
-	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0 rgba(255, 255, 255, 0.19);
+	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0 rgba(150, 150, 150, 0.19);
 	transition:all 0.3s ease;
 	transform: scale(1.15);
-	backface-visibility: hidden;
-	-webkit-filter: blur(0);
 }
 
 .portfolio-item > a > img {
@@ -214,8 +229,7 @@ hr {
 
 .portfolio-item > a > img:hover {
 	opacity: 1.0;
-	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0 rgba(255, 255, 255, 0.19);
+	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0 rgba(150, 150, 150, 0.19);
 	transition:all 0.3s ease;
 	transform: scale(1.15);
-	backface-visibility: hidden;
 }
