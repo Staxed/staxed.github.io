@@ -210,6 +210,18 @@ hr {
 	align-items: center;
 }
 
+#about-footer > a {
+	color: #337AB7;
+	text-decoration: none;
+	transition:all 0.3s ease;
+}
+
+#about-footer > a:hover {
+	color: #333;
+	text-decoration: underline;
+	transition:all 0.3s ease;
+}
+
 .portfolio-flex-container {
 	display: flex;
 	flex-direction: column;
