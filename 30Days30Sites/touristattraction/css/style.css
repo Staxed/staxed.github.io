@@ -1,0 +1,126 @@
+html, body {
+    height: 100%;
+    min-height: 100%;
+    font-family: sans-serif;
+}
+
+.main-flex-container {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header > h1 {
+    font-size: 4em;
+    font-weight: 600;
+    text-shadow: #000 3px 4px 5px;
+}
+
+.headerBG {
+    background: #000 url("../img/eiffel-tower-1.jpg") center/cover no-repeat;
+    background-attachment: fixed;
+    color: white;
+}
+
+#social {
+    display: flex;
+    align-items: center;
+    margin: 5px auto;
+    width: 50%;
+    justify-content: center;
+}
+
+#social > div {
+    text-align: center;
+    margin: 0px 10px;
+}
+
+main {
+    display: flex;
+    text-align: center;
+    margin: 40px 0;
+}
+
+#floors {
+    flex: 1;
+}
+
+#restaurants {
+    flex: 1;
+}
+
+#lights {
+    flex: 1;
+}
+
+#project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 100px auto;
+}
+
+.projectBG {
+    background: #000 url("../img/eiffel-tower-dark-1.jpg") center/cover no-repeat;
+        background-attachment: fixed;
+    color: white;
+}
+
+#project > span {
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#project > span > p {
+    width: 60%;
+    font-size: 1.5em;
+    font-weight: 400;
+    text-shadow: #000 3px 4px 5px;
+}
+
+#project > span > p > a {
+    color: #D6E6F5;
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #162252;
+    color: white;
+}
+
+.footer-horizontal {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 15px 0 15px 0;
+    width: 80%;
+}
+
+.footer-horizontal > div > a {
+    color: #FFF;
+    text-decoration: none;
+    transition:all 0.3s ease;
+}
+
+.footer-horizontal > div > a:hover {
+    color: #FFF;
+    text-decoration: underline;
+    transition:all 0.3s ease;
+}
+
+.footer-right {
+    margin-left: auto;
+}
