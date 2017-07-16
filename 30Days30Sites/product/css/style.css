@@ -1,0 +1,119 @@
+html, body {
+  height: 100%;
+  min-height: 100%;
+  font-family: sans-serif;
+}
+
+.main-flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+    height: 92vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header > h1 {
+    color: #FFF;
+    font-size: 2.75em;
+    font-weight: 500;
+    text-align: center;
+    max-width: 70%;
+    text-transform: capitalize;
+}
+
+.headerBG {
+    background: #FFF url("../img/ipad_table_dark.jpg") center/cover no-repeat;
+    color: white;
+}
+
+nav {
+    display: flex;
+    height: 8vh;
+    align-items: center;
+    border-top: 1px solid #CCC;
+    border-bottom: 1px solid #CCC;
+    padding: 0 10% 0 5%;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+}
+
+nav > .nav-links {
+    margin-left: auto;
+}
+
+nav > .nav-links >a {
+    text-decoration: none;
+    color: #000;
+}
+
+nav > .nav-links a:hover {
+    text-decoration: underline;
+}
+
+main { /* used for about section*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.details {
+    flex: 1;
+    text-align: center;
+    width: 70%;
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.details > span > h2 {
+    font-size: 2em;
+}
+
+#reasons {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#reasons > article {
+    background-color: blue;
+    flex: 1;
+    text-align: center;
+}
+
+#features {
+    background-color: purple;
+    display: flex;
+    flex-direction: column;
+}
+
+#features > .left-article {
+    display: flex;
+    justify-content: space-around;
+}
+
+#features > .right-article {
+    display: flex;
+    justify-content: space-around;
+}
+
+#features > .center-article {
+    text-align: center;
+}
+
+#pricing {
+    background-color: orange;
+    text-align: center;
+}
+
+footer {
+    background-color: gray;
+    text-align: center;
+}
