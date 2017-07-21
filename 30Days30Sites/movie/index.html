@@ -16,15 +16,17 @@
 	<link rel="stylesheet" href="css/style.css?v=1.1">
 
 	<script>
-		function myFunction() {
-			var x = document.getElementById('myDIV');
-			if (x.style.display === 'block') {
-				x.style.display = 'none';
+		function toggleHidden() {
+			if (document.getElementById("hide").classList.contains("hide")) {
+				document.getElementById("hide").classList.remove("hide");
+				document.getElementById("hide").classList.add("unhide");
 			} else {
-				x.style.display = 'block';
+				document.getElementById("hide").classList.remove("unhide");
+				document.getElementById("hide").classList.add("hide");
 			}
 		}
 	</script>
+
 </head>
 <body>
 
@@ -36,7 +38,7 @@
 			<p>Gallery</p>
 			<p>Credits</p>
 		</div>
-		<div><a onclick="myFunction()">Legal</a><span id="myDIV" class="hidden"> - There is no spoon</span></div>
+		<div><a onclick="toggleHidden()">Legal</a><span id="hide" class="hide"> - There is no spoon</span></div>
 	</div>
 	<div><img class="title-img" src="./img/title-cluster.png"></div>
 	<div class="text"><a href="https://staxed.github.io">Follow my Portfolio</a></div>

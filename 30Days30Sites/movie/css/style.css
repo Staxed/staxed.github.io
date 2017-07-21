@@ -36,7 +36,6 @@ main > div {
 }
 
 .menu {
-    align-self: center;
     font-size: 1.5em;
     font-weight: 100;
 }
@@ -50,7 +49,16 @@ a:hover {
     text-decoration: underline;
 }
 
-.hidden {
-    display: none;
-    transition-duration: 3s;
+.hide {
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
+    -moz-transition: opacity 2s ease-in-out;
+    -webkit-transition: opacity 2s ease-in-out;
+}
+
+.unhide {
+    opacity: 1;
+    transition: opacity 2s ease-in-out;
+    -moz-transition: opacity 2s ease-in-out;
+    -webkit-transition: opacity 2s ease-in-out;
 }
