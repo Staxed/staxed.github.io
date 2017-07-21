@@ -14,11 +14,32 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/aa51507dfa.css">
 
 	<link rel="stylesheet" href="css/style.css?v=1.1">
+
+	<script>
+		function myFunction() {
+			var x = document.getElementById('myDIV');
+			if (x.style.display === 'block') {
+				x.style.display = 'none';
+			} else {
+				x.style.display = 'block';
+			}
+		}
+	</script>
 </head>
 <body>
 
 <main class="headerBG">
-    <h1>The<br /><hr><br />Arrivals</h1>
+	<div class="text flex-vert">
+		<div class="menu">
+			<p>Home</p>
+			<p>Synopsis</p>
+			<p>Gallery</p>
+			<p>Credits</p>
+		</div>
+		<div><a onclick="myFunction()">Legal</a><span id="myDIV" class="hidden"> - There is no spoon</span></div>
+	</div>
+	<div><img class="title-img" src="./img/title-cluster.png"></div>
+	<div class="text"><a href="https://staxed.github.io">Follow my Portfolio</a></div>
 </main>
     
 </body>
